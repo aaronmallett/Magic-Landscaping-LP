@@ -1,0 +1,130 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: DancingScript;
+	src: url("../fonts/dancing-script-ot/DancingScript-Regular.otf") format("opentype");
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	background: url(../images/banner-top.png)repeat-x;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+    left: 50%;
+    margin-left: -119.5px;
+}
+
+#number-top {
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+/***************************************
+PANEL 1
+***************************************/
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    margin-left: -100%;
+  }
+}
+
+#panel1 {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 255px;
+    position: relative;
+}
+
+
+#panel1  p {
+	font-family: 'Andada', serif;
+	color: white;
+	-webkit-text-shadow: 2px 2px 5px black;
+	text-shadow: 2px 2px 5px black;
+	font-size: 37pt;
+	text-align: left;
+	display: inline-block;
+	line-height: 50pt;
+}
+
+#panel1 span {
+	font-family: 'DancingScript', cursive;
+	color: #8ec741;
+	font-size: 68pt;
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+
+#banner-bottom {
+	width: 100%;
+	height: 100px;
+	background: url(../images/banner-bottom.png)repeat-x;
+}
+
+#button-top{
+	padding: 0px 10px;
+	border-radius: 10px;
+	border: solid 3px #8ec741;
+	color: white;
+	font-family: 'Andada', serif;
+	text-shadow: 0px 0px 5px white;
+	text-decoration: none;
+	font-size: 15pt;
+	box-shadow: 0px 3px 10px black;
+}
+
+#arrow {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+#panel2 {
+	width: 100%;
+	height: 800px;
+	background: white;
+}
+
