@@ -122,9 +122,73 @@ PANEL 1
 }
 
 
+/*******************************************
+PANEL 2
+*******************************************/
+
+
 #panel2 {
 	width: 100%;
-	height: 800px;
+	overflow: auto;
 	background: white;
+	position: relative;
+	background: url(../images/grass.jpg)no-repeat;
+	background-size: cover;
 }
+
+#banner-bottom p {
+	color: #578069;
+	font-family: 'Andada', serif;
+	font-size: 17pt;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 25pt;
+    padding-top: 8px;
+}
+
+#banner-bottom span {
+	color: #8ec741;
+}
+
+#copy-text {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 320px;
+	margin-bottom: 50px;
+}
+
+#copy-text  p {
+	font-family: 'Andada', serif;
+	font-size: 14pt;
+	color: white;
+	text-align: center;
+	letter-spacing: 1pt;
+}
+
+#copy-text span {
+	color: #8ec741;
+}
+
+#banner-bottom {
+	position: relative;
+	z-index: 100;
+}
+
+#flags {
+	margin-top: -65px;
+	position: absolute;
+	z-index: 0;
+	left: 50%;
+    margin-left: -480px;
+}
+
+#copy-text > img {
+	display: block;
+    margin: 0 auto;
+}
+
+
+
+
 
