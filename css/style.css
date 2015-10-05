@@ -94,6 +94,8 @@ PANEL 1
 
 .wrapper {
 	margin: 0 auto;
+	width: 80%;
+	padding-top: 50px;
 }
 
 #banner-bottom {
@@ -187,6 +189,136 @@ PANEL 2
 	display: block;
     margin: 0 auto;
 }
+
+
+
+/*******************************************
+PANEL 3
+*******************************************/
+
+#panel3 {
+	width: 100%;
+	overflow: auto;
+	background: url(../images/panel3-bg.jpg)no-repeat;
+	background-size: cover;
+}
+
+
+.item {
+	padding: 10px;
+}
+
+.owl-carousel {
+	margin-bottom: 50px;
+}
+
+.owl-carousel img {
+	border: 3px solid white;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	box-shadow: 0 7px 4px -4px gray;
+	-webkit-box-shadow: 0 7px 4px -4px gray;
+	-moz-box-shadow: 0 7px 4px -4px gray;
+	-o-box-shadow: 0 7px 4px -4px gray;
+}
+
+#panel3-text {
+	text-align: center;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+#panel3-text p {
+	font-size: 30pt;
+	font-family: 'Andada', serif;
+	color: #4c775f;
+	margin: 0 auto;
+	width: 40%;
+}
+
+#panel3-text p:before {
+	border-top: 4px solid #4c775f;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 95px;
+}
+
+#panel3-text p:after {
+	border-top: 4px solid #4c775f;
+    display: block;
+    height: 1px;
+    content: " ";
+    width: 30%;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: 95px;
+}
+
+#panel3-text span {
+	color: #8dc642;
+}
+
+
+/*******************************************
+FOOTER
+*******************************************/
+
+#footer {
+	width: 100%;
+	height: 90px;
+	background: url(../images/footer.jpg)repeat-x;
+	position: relative;
+}
+
+#footer p {
+	color: white;
+	font-family: helvetica;
+	font-size: 10pt;
+}
+
+#social {
+	width: 204px;
+	position: absolute;
+	left: 50%;
+	margin-left: -102px;
+	top: 50%;
+	margin-top: -25.5px;
+}
+
+#social li, #social a {
+	text-decoration: none;
+	list-style: none;
+}
+
+#social li {
+	float: left;
+	padding-right: 10px;
+
+}
+
+#rights {
+	margin: 0 auto;
+	position: absolute;
+	left: 10%;
+	top: 50%;
+}
+
+#msco {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	margin: 0 auto;
+}
+
+
+
 
 
 
