@@ -1,3 +1,4 @@
+
 body {
 	margin: 0 auto;
 	padding: 0;
@@ -41,7 +42,20 @@ PANEL 1
     left: 0;
     overflow: hidden;
     z-index: -100;
+
 }
+
+/*#dot-bg {
+	background-image: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+
+}*/
 
 .fullscreen-bg__video {
     position: absolute;
@@ -185,6 +199,10 @@ PANEL 2
     margin-left: -480px;
 }
 
+#flags img {
+	width: 960px;
+}
+
 #copy-text > img {
 	display: block;
     margin: 0 auto;
@@ -265,6 +283,11 @@ PANEL 3
 	color: #8dc642;
 }
 
+/*.wrapper img {
+	text-align: center;
+	margin: 0 auto;
+}*/
+
 
 /*******************************************
 FOOTER
@@ -281,6 +304,7 @@ FOOTER
 	color: white;
 	font-family: helvetica;
 	font-size: 10pt;
+	width: 200px;
 }
 
 #social {
@@ -307,13 +331,13 @@ FOOTER
 	margin: 0 auto;
 	position: absolute;
 	left: 10%;
-	top: 50%;
+	top: 30px;
 }
 
 #msco {
 	position: absolute;
 	right: 10%;
-	top: 50%;
+	top: 30px;
 	margin: 0 auto;
 }
 

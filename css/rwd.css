@@ -1,0 +1,109 @@
+@media (max-width: 1015px) {
+	#banner-bottom p {
+		width: 90%;
+		font-size: 15pt;
+	}
+}
+
+@media (max-width: 975px) {
+	#flags {
+		margin-top: -40px;
+		margin-left: -300px;
+	}
+
+	#flags img {
+		width: 600px;
+	}
+}
+
+@media (max-width: 830px) {
+	#number-top {
+		float: left;
+		margin-left: 50px;
+	}
+
+	#logo {
+		right: 0;
+		left: auto;
+	}
+
+	.fullscreen-bg__video {
+		display: none;
+	}
+
+	.fullscreen-bg {
+		background: url(../images/mobile-bg.jpg)center center;
+		background-size: cover;
+	}
+
+	#panel1 p {
+		font-size: 27pt;
+		text-align: center;
+	}
+}
+
+@media (max-width: 700px) {
+	#banner-bottom p {
+		font-size: 12pt;
+	}
+
+	#footer {
+		height: 150px;
+		background-size: cover;
+	}
+
+	#social {
+		margin-top: 0;
+		top: 5px;
+	}
+
+	#rights {
+		left: 50%;
+		margin-left: -100px;
+		top: 60px;
+		text-align: center;
+	}
+
+	#msco {
+		left: 50%;
+		margin-left: -100px;
+		top: 110px;
+		text-align: center;
+	}
+
+	#panel3-text p:before, #panel3-text p:after {
+		top: 78px;
+	}
+
+	#panel3-text p {
+		font-size: 20pt;
+	}
+
+	#panel3-text img {
+		width: 90%;
+	}
+}
+
+@media (max-width: 630px) {
+	#flags {
+		display: none;
+	}
+
+	#copy-text {
+		margin-top: 50px;
+	}
+
+	#banner-bottom p {
+		line-height: 16pt;
+	}
+
+}
+
+
+@media (max-width: 470px) {
+	#number-top {
+		margin-left: 10px;
+		width: 150px;
+	}
+}
+
