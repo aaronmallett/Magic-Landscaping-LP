@@ -19,9 +19,28 @@
 	<img id="number-top" src="images/number-header.png">
 </div>
 
+	<div id="form">
+		
+        <form id="contact-form" action="sendmail.php" method="POST">
+        	<h1>Book now before it's too late for a <span>10% off</span> end of season discount!</h1>
+	        <div id="fields">
+
+	            <input type="text" name="name" id="input-name" placeholder="name">
+	            <input type="text" name="email" id="input-email" placeholder="email">
+	            <input type="text" name="phone" id="input-phone" placeholder="phone">
+	          	<input type="text" name="subject" id="input-subject" placeholder="subject">
+	          	<textarea form="contact-form" id="message" name="message" placeholder="message"></textarea>
+	            <!-- <input id="message" type="textarea" name="message" placeholder="message"> -->
+	            <div id="button"><button type="submit" id="signup">submit</button></div>
+	            <div id="messagebox"></div>
+	        </div>
+        </form>
+      </div>
+
+
 <div id="panel1">
 	<p>THERE IS SOMETHING <span>Magical</span><br>ABOUT A WELL LANDSCAPED HOME</p><br>
-	<a id="button-top" href="http://www.magiclandscapinginc.com/pages/contact/">GET A FREE ESTIMATE</a><br>
+	<a id="button-top" href="#">GET A FREE ESTIMATE</a><br>
 	<a id="arrow" href="#panel2"><img  src="images/arrow.png"></a>
 	
 
@@ -102,5 +121,6 @@ Site Developed by MSCO
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="owl/owl.carousel.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/submitform.js"></script>
 </body>
 </html>

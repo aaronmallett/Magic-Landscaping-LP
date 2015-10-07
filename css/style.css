@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
+	position: relative;
 }
 
 @font-face {
@@ -16,6 +17,7 @@ body {
 	height: 100px;
 	background: url(../images/banner-top.png)repeat-x;
 	position: relative;
+	z-index: 100;
 }
 
 #logo {
@@ -188,7 +190,7 @@ PANEL 2
 
 #banner-bottom {
 	position: relative;
-	z-index: 100;
+	z-index: 80;
 }
 
 #flags {
@@ -340,6 +342,111 @@ FOOTER
 	top: 30px;
 	margin: 0 auto;
 }
+
+/***********************************
+FORM
+***********************************/
+
+#contact-form {
+	width: 60%;
+	background: white;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/form-box.jpg)repeat-x;
+	background-size: cover;
+    background-position: center center;
+    font-family: 'Andada', serif;
+    padding-top: 95px;
+    border: solid 3px #648976;
+    box-shadow: 0px 0px 15px white;
+    -webkit-box-shadow: 0px 0px 15px white;
+    -moz-box-shadow: 0px 0px 15px white;
+    -o-box-shadow: 0px 0px 15px white;
+}
+
+#form {
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	z-index: 90;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+
+#fields {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	margin-left: -5px;
+	border: solid 3px #648976;
+	font-family: 'Andada', serif;
+    font-variant: small-caps;
+    font-size: 14pt;
+    color: #648976;
+}
+
+textarea {
+	vertical-align: top;
+	resize: none;
+	border: solid 3px #648976;
+	padding-left: 5px;
+	margin-left: -5px;
+	font-family: 'Andada', serif;
+    font-variant: small-caps;
+    font-size: 14pt;
+    color: #648976;
+}
+
+#message {
+	height: 170px;
+	width: 100%;
+}
+
+button#signup {
+    width: 105px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+    background: none;
+    height: 35px;
+    border: solid 3px #648976;
+    float: right;
+    margin-right: -8px;
+    font-family: 'Andada', serif;
+    font-variant: small-caps;
+    font-size: 14pt;
+    color: #648976;
+}
+
+#contact-form h1 {
+    font-variant: small-caps;
+    font-size: 28pt;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    color: #6;
+    color: #648976;
+    text-shadow: 1px 1px 2px gray;
+    line-height: 32pt;
+    letter-spacing: 2pt;
+}
+
+#contact-form span {
+    font-size: 35pt;
+    color: white;
+}
+
+
+
 
 
 
