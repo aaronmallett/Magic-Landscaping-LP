@@ -425,6 +425,7 @@ button#signup {
     font-variant: small-caps;
     font-size: 14pt;
     color: #648976;
+    cursor: pointer;
 }
 
 #contact-form h1 {
