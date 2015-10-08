@@ -2,10 +2,12 @@ $(document).ready(function() {
 var button = $('#button');
 var messagebox = $('#messagebox');
 
-$('#form').submit(function () {
- submitform();
- return false;
-});
+// $('#form').submit(function () {
+//  submitform();
+//  return false;
+// });
+
+$('#button').click(submitform);
 
 var defaultText = '<img src="images/spinner.gif"></img> Working...';
 
