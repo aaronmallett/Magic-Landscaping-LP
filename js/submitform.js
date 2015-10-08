@@ -1,8 +1,11 @@
-
+$(document).ready(function() {
 var button = $('#button');
 var messagebox = $('#messagebox');
 
-button.click(submitform);
+$('#form').submit(function () {
+ submitform();
+ return false;
+});
 
 var defaultText = '<img src="images/spinner.gif"></img> Working...';
 
@@ -66,3 +69,5 @@ function validate(){
 	return ret;
 
 }
+
+});

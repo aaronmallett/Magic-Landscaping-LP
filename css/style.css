@@ -363,6 +363,7 @@ FORM
     -webkit-box-shadow: 0px 0px 15px white;
     -moz-box-shadow: 0px 0px 15px white;
     -o-box-shadow: 0px 0px 15px white;
+    position: relative;
 }
 
 #form {
@@ -446,10 +447,28 @@ button#signup {
     color: white;
 }
 
+div#messagebox {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    clear: both;
+}
 
+#messagebox img {
+	width: 20px;
+}
 
+a.clear {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
-
+.clear img {
+	width: 55px;
+}
 
 
 
