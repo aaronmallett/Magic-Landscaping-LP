@@ -47,6 +47,16 @@ PANEL 1
 
 }
 
+.fullscreen-bg:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIElEQVQIW2NkYGD4z8DAwMgABTAGXBAuA1OJLADS9B8AguEEBAsMPcgAAAAASUVORK5CYII=)repeat;
+}
+
 /*#dot-bg {
 	background-image: url(http://s14.directupload.net/images/111129/44ga9qid.png);
 	position: fixed;
