@@ -36,6 +36,10 @@
 		background-size: cover;
 	}
 
+	.fullscreen-bg:after {
+		display: none;
+	}
+
 	#panel1 p {
 		font-size: 27pt;
 		text-align: center;
